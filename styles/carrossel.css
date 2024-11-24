@@ -20,6 +20,10 @@
     margin: 0.5em 0;
 }
 
+.descricao {
+    margin-right: 9px;
+}
+
 .cardDescricao {
     display: flex;
     justify-content: space-between;
@@ -70,4 +74,8 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descricaoImagem {
+    margin-bottom: 0.56em
 }
