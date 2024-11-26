@@ -98,5 +98,13 @@
     .containerImagemTrans {
         display: none;
     }
-    
+
+    .opcoesBotao:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoesBotao {
+        display: none;
+    }
 }
