@@ -117,6 +117,43 @@
     .descricaoTexto {
         padding-top: 4px;
         font-size: 16px;
-        line-height: 22px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrosselContainer {
+        display: flex;
+        margin: 2em 10.8em;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0em;
+    }
+
+    .swiper {
+        width: 38%;
+        margin-right: 2em;
+    }
+
+    .descricao {
+        margin-right: 1em;
+    }
+
+    .descricaoTitulo {
+        font-size: 32px;
+    }
+
+    .descricaoTexto {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .card {
+        width: 36em;
+        margin-bottom: 0;
+        margin-left: 1em;
     }
 }
